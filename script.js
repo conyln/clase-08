@@ -29,11 +29,11 @@
         }
 
 function barrita(n) {
-    let ancho = (n / 7) * 250;
+    let ancho = (n / 7) * 140;
     let color = "#E36414"; // color por defecto (naranja)
 
     if (n === 7) {
-        color = "#2a9d8f"; // verdeagua
+        color = "#00FF7F"; // verdeagua
     } else if (n >= 6) {
         color = "#70e000"; // verde
     } else if (n >= 5) {
