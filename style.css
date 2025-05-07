@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    color: #252DC2;
+    background: Tan;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: FloralWhite;
+    padding: 50px; 
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: Sienna;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid MediumVioletRed;
+}
+
+th {
+    background-color: FloralWhite;
+    font-weight: 500;
+}
+
+tbody tr:nth-child(even) {
+    background-color: FloralWhite;
+}
+
+td:nth-child(2) {
+    font-family: "Nunito", sans-serif;
+}
+
+p {
+    background: #8B4513;
+    padding: 5px ;
+}
+
+#promedio {
+    font-weight: 800px;
+    color: MediumVioletRed;
+}
+
+svg {
+    width: 140px;
+    height: 24px;
+    display: block;
+}
+
+    
