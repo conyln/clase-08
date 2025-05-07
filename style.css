@@ -1,11 +1,11 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&family=M+PLUS+Rounded+1c&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    color: #252DC2;
-    background: Tan;
-    font-family: "Nunito", sans-serif;
+    color: Black;
+    background: Pink;
+ font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
@@ -23,7 +23,7 @@ h1 {
     font-weight: 800;
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: Sienna;
+    color: MediumVioletRed;
 }
 
 table {
@@ -48,17 +48,18 @@ tbody tr:nth-child(even) {
 }
 
 td:nth-child(2) {
-    font-family: "Nunito", sans-serif;
+ font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 p {
-    background: #8B4513;
+    background: MediumVioletRed;
     padding: 5px ;
+    color: Pink;
 }
 
 #promedio {
     font-weight: 800px;
-    color: MediumVioletRed;
+    color: White;
 }
 
 svg {
