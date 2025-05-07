@@ -2,7 +2,7 @@
             const texto = document.querySelector("#promedio")
             var total = 0;
             async function notas() {
-                let consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/opr/refs/heads/main/clase-08/notas.json");
+                let consulta = await fetch("https://raw.githubusercontent.com/conyln/clase-09/refs/heads/main/notas.json");
                 let data = await consulta.json();
                 console.log(data);
                 data.forEach((d)=>{
